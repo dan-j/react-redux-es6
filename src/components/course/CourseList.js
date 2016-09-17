@@ -1,5 +1,5 @@
 import React, {PropTypes} from 'react';
-import CourseListRow from './CourseListRow'
+import CourseListRow from './CourseListRow';
 
 const CourseList = ({courses}) => {
   return (
@@ -19,7 +19,7 @@ const CourseList = ({courses}) => {
       )}
       </tbody>
     </table>
-  )
+  );
 };
 
 CourseList.propTypes = {
